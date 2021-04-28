@@ -1,0 +1,3 @@
+include ':AssesmentQ1Test'
+include ':app'
+rootProject.name = "Assestment Q1 Test"
