@@ -14,11 +14,11 @@ public class AssestmentQ1Test {
         System.out.println("Third number : ");
         int input3 = keyboard.nextInt();
         
-        if ((input1<input2)&&(input1<input3)){
+        if ((input1<=input2)&&(input1<=input3)){
             System.out.println(input1 + " is the smallest integer.");
 
         }
-        else if ((input2<input1)&&(input2<input3)){
+        else if ((input2<=input1)&&(input2<=input3)){
             System.out.println(input2 + " is the smallest integer.");
         }
         else {
